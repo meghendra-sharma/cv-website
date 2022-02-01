@@ -1,0 +1,262 @@
+body{
+  margin: 0;
+  font-family: Tahoma, Verdana, sans-serif;
+
+
+}
+html{
+  font-size: 16px;
+}
+
+*{
+  box-sizing: border-box;
+}
+
+/* custom common classes for float(left and right) and for width(33.33% and 66.66% and 100%)  */
+
+.left{
+  float: left;
+}
+.right{
+  float: right;
+}
+
+.w33{
+  width: 33.33%;
+}
+.w66{
+  width: 66.66%
+}
+.w100{
+  width: 100%;
+}
+
+.horizontal-padding{
+  padding-left: 1.2rem;
+  padding-right: 1.2rem;
+}
+
+.vertical-padding{
+  padding-top: 1.2rem;
+  padding-bottom: 1.2rem;
+}
+
+.mt0{
+  margin-top: 0;
+}
+.mb0{
+  margin-bottom: 0;
+}
+.ml0{
+  margin-left: 0;
+}
+.mr0{
+  margin-right: 0;
+}
+
+.m0{
+  margin: 0;
+}
+
+.pl{
+  padding-left: 1.2rem;
+}
+.pr{
+  padding-right: 1.2rem;
+}
+.pt{
+  padding-top: 1.2rem;
+}
+.pb{
+  padding-bottom: 1.2rem;
+}
+
+.mb{
+  margin-bottom: 1.2rem;
+}
+
+.mt{
+  margin-top: 1.2rem;
+}
+
+.ml{
+  margin-left: 1.2rem;
+}
+
+.mr{
+  margin-right: 1.2rem;
+}
+
+
+
+i{
+  color: #4267B2;
+  margin-right: 2.03%;
+  font-size: 1.5rem;
+}
+
+
+
+
+/* hhhhhhhhhhhhhhhh */
+
+#myimage{
+  max-width: 100%;
+  height: auto;
+}
+
+.hero-image{
+  position: relative;
+}
+
+.hero-image h2{
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+  color: white;
+
+}
+
+
+.w33 p{
+  color: gray;
+  font-size: 1.2rem;
+}
+
+
+.column{
+  background-color: white;
+  box-shadow: 5px 5px 10px 0px gray;
+}
+
+
+.bar{
+  background-color: #D3D3D3;
+  width: 100%;
+  border-radius: 1rem;
+}
+
+
+.skill-bar{
+  text-align: center;
+  background-color: #4267B2;
+  color: white;
+  border-radius: 1rem;
+}
+
+
+
+
+
+/* hhhhhhhhhhhhhhhhhh */
+
+#full-stack-development{
+  width: 70%;
+}
+#databases{
+  width: 60%;
+}
+#cloud{
+  width: 50%;
+}
+#data-analysis{
+  width: 30%;
+}
+
+
+
+
+/* jjjjjjjjjjjjjj */
+
+
+
+
+.language-bar{
+  background-color: #4267B2;
+
+  border-radius: 1rem;
+  height: 1.2rem;
+}
+
+
+#hindi{
+  width: 100%;
+}
+
+#english{
+  width: 80%;
+}
+
+
+
+
+/* tttttttttttttttttttttttt */
+
+
+.w66 h3{
+  color: gray;
+  font-size: 2rem;
+  font-weight: lighter;
+}
+
+
+.w66 h4{
+  color: gray;
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+.w66 p{
+  font-size: 1.1rem;
+}
+
+p.date{
+  color: #4267B2;
+}
+
+.w66 i{
+  font-size: 1.8rem;
+}
+
+.date i{
+  font-size: 1.1rem;
+}
+
+
+
+/* llllllllllllllllllllll */
+
+.clearfix{
+  overflow: auto;
+
+}
+
+footer{
+  background-color: #4267B2;
+  color: white;
+  text-align: center;
+}
+
+footer i{
+  color: white;
+}
+
+
+
+
+
+
+/* mobile view design */
+
+@media only screen and (max-width:600px){
+  .w33{
+    width: 100%;
+  }
+  .w66{
+    width: 100%;
+  }
+
+  .pl{
+    padding-left: 0;
+  }
+}
